@@ -1,0 +1,98 @@
+*{
+    margin:0;
+    padding:0;
+}
+body {
+    font-family: 'PT Sans','sans-serif';
+    font-size: 100%;
+    font-size:16px;
+    line-height: 1.5;
+    background-color:#f0f4fb;
+
+}
+
+.totalsite{
+    margin: 2rem auto;
+    max-width: calc(100% - 80px);
+}
+.cards{
+    position: relative;
+    display: grid;
+    grid-template-rows:repeat(auto-fill,minmax(265px,1fr));
+    gap:2rem 4rem;
+}
+.bottle{
+    background-image: url('plain site.jpg');
+    border-radius: 25px;
+    position: relative;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:bottom;
+    padding-left: calc(100%-20px);
+}
+
+.discribe{
+    height: 50%;
+    width:40%;
+    padding-top: 4rem;
+    padding-left: 50px;
+    color:#f0f4fb;
+}
+.water{
+    background-image: url('icewater.jpg');
+    height:100vh;
+    border-radius: 25px;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position:bottom;
+    color:#1b1b1b;
+}
+.text{
+    height: 80%;
+    width:80%;
+    padding-top: 4rem;
+    padding-left: 50px;
+}
+
+.subgrid{
+    position: relative;
+    display: grid;
+    grid-template-columns:repeat(auto-fill,minmax(500px,1fr));
+    gap: 30px;
+}
+.pic{
+    background-image: url('iceland.jpg');
+    height:100vh;
+    border-radius: 25px;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position:bottom;
+}
+.colo{
+    background-color: #B1B2FF;
+    height:100vh;
+    border-radius: 25px;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position:bottom;
+    color:#f0f4fb;
+    align-content: center;
+}
+.text{
+    height: 80%;
+    width:80%;
+    padding:;
+}
+.colo h1{
+    width: 50%;
+    margin: 10px auto;
+}
+.colo p{
+    
+    width: 75%;
+    margin: 10px auto;
+}
